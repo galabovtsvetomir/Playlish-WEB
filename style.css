@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/playlish_background.jpeg"); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.app-name {
+  text-align: center; /* Center the text horizontally */
+  font-size: 80px; /* Set the font size to make it big */
+  font-family: "Roboto", sans-serif; /* Apply the Roboto font */
+  color: white;
+}
+
+.content {
+  display: flex;
+  background: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(
+    149,
+    185,
+    232,
+    0.8
+  ); /* Optional: Add a semi-transparent background to content for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cls1 {
+  font-size: 100px;
+}
+
+.class123 {
+  color: blue;
+}
+
+#header-element {
+  color: yellow;
+}
+
+.my-forms .submit-input {
+  background-color: red;
+  color: white;
+}
+
+.cls1,
+.class123,
+.my-forms .submit-input {
+  font-weight: bold;
+}
+
+#login-form,
+#registration-form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#login-form label,
+#registration-form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#login-form .row,
+#registration-form .row {
+  margin-bottom: 10px;
+}
+
+input.warning {
+  background-color: yellow;
+}
+
+input.error {
+  background-color: #fff1f0;
+  border: solid 1px red;
+}
+
+.hidden {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.button-container .button {
+  width: 48%;
+  height: 20%;
+  /* Adjust width to fit two buttons side by side with some space */
+}

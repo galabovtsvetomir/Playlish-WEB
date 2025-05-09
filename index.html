@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Заглавие</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./Event_handler.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="app-name">Playlish</h1>
+
+      <form id="login-form" method="post" action="./session.php" class="hidden">
+        <div class="row">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" ml="5" />
+        </div>
+        <div class="row">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div class="row">
+          <input
+            type="submit"
+            value="Sign In"
+            id="submit-form"
+            class="button"
+          />
+        </div>
+        <div class="row">
+          <span id="form-error"></span>
+        </div>
+      </form>
+
+      <form
+        id="registration-form"
+        method="post"
+        action="./users.php"
+        class="hidden"
+      >
+        <div class="row">
+          <label for="name">Username:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="row">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div class="row">
+          <label for="email">email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+        <div class="row">
+          <input
+            type="submit"
+            value="Sign Up"
+            id="submit-registration-form"
+            class="button"
+          />
+        </div>
+        <div class="row">
+          <span id="registration-form-error"></span>
+        </div>
+      </form>
+      <div class="button-container">
+        <button id="login-button" class="button hidden">Sign In</button>
+        <button id="registration-button" class="button hidden">Sign Up</button>
+        <button id="default_button" class="button hidden">Back</button>
+      </div>
+      <button id="logout-button" class="button hidden">Logout</button>
+    </div>
+  </body>
+</html>

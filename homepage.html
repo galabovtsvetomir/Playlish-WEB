@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./homepage_style.css" />
+    <script src="./homepage_event_handler.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // For authentication purposes !
+      // as question for this DOMContentLoaded event is that ?
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("./session.php", {
+          method: "GET",
+        })
+          .then((response) => response.json())
+          .then((userData) => {
+            if (!userData) {
+              // Redirect to login page if not authenticated
+              document.location = "./index.html";
+            } 
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+
+        // Add event listener for logout button
+        document
+          .getElementById("logout-button")
+          .addEventListener("click", function () {
+            fetch("./session.php", {
+              method: "DELETE",
+            }).then(() => {
+              document.location = "./index.html";
+            });
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="top-left-container">
+      <h1 id="logo" class="logo">Playlish</h1>
+      <div id="search-bar-container">
+        <div id="filter-container">
+          <select id="genre-filter" class="dropdown">
+            <option value="">All Genres</option>
+            <!-- Genre options will be populated here -->
+          </select>
+          <select id="sort-filter" class="dropdown">
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
+          </select>
+        </div>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search songs..." />
+        <button id="search-button" class="search-button">Search</button>
+      </div>
+    </div>
+    </div>
+    
+    <h1 id="welcome-message">
+      <!-- user info here -->
+    </h1>
+
+    <div id="top-right-container">
+      <div class="button-container">
+        <button id="profile-button" class="button">My Profile</button>
+        <button id="add-song-button" class="button">Add Song</button>
+        <button id="my-playlists-button" class="button">My Playlists</button>
+        <button id="available-songs-button" class="button">
+          Available Songs
+        </button>
+        <button id="statistics-button" class="button">Statistics</button>
+      </div>
+      <button id="logout-button" class="button">Logout</button>
+    </div>
+
+    <div id="add-song-modal" class="hidden modal">
+      <div id="add-song-form-container" >
+        <form id="add-song-form" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="song-name">Song Name:</label>
+            <input type="text" id="song-name" name="song_name" required />
+          </div>
+  
+          <div class="form-group">
+            <label for="artist-name">Artist Name:</label>
+            <input type="text" id="artist-name" name="artist_name" required />
+          </div>
+  
+          <div class="form-group">
+            <label for="genre-name">Genre:</label>
+            <select id="genre-id" name="genre_id" required></select>
+          </div>
+  
+          <div class="form-group">
+            <label for="song-picture">Song Picture:</label>
+            <input
+              type="file"
+              id="song-picture"
+              name="song_picture"
+              accept="image/*"
+              required
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="song-file">MP3 File:</label>
+            <input
+              type="file"
+              id="song-file"
+              name="song_file"
+              accept="audio/mpeg"
+              required
+            />
+          </div>
+  
+          <div id="add-song-form-error" class="error-message hidden"></div>
+  
+          <div class="button-group">
+            <button type="submit" class="button">Submit</button>
+            <button type="button" class="button" id="cancel-button">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+
+    <div id="playlists-container" class="items-container hidden">
+      <button id="add-playlist-button" class="button">Add Playlist</button>
+      <div id="playlists-container-inner" class="items-container ">
+        <!-- Playlists will be loaded here -->
+      </div>
+    </div>
+    
+    <!-- Add Playlist Form Container -->
+    <div id="add-playlist-modal" class="hidden modal">
+      <div id="add-playlist-form-container" >
+        <form id="add-playlist-form">
+          <div class="form-group">
+            <label for="playlist-name">Playlist Name:</label>
+            <input type="text" id="playlist-name" name="playlist_name" required />
+          </div>
+          <div id="add-playlist-form-error" class="error-message"></div>
+          <div class="button-group">
+            <button type="submit" class="button">Submit</button>
+            <button type="button" class="button" id="cancel-playlist-button">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+
+    <div id="add-to-playlist-modal" class="hidden modal">
+      <form id="add-to-playlist-form">
+        <h2>Select Playlists</h2>
+        <input type="hidden" id="song-id-input" name="song_id">
+        <div id="playlist-checkboxes">
+          <!-- Playlist checkboxes will be populated here -->
+        </div>
+        <div class="button-group">
+          <button type="submit" id="add-to-playlist-confirm" class="button">Add</button>
+          <button type="button" id="add-to-playlist-cancel" class="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="view-playlist-modal" class="hidden modal">
+      <div class="modal-content">
+        <h2>Songs in Playlist</h2>
+        <div id="playlist-songs-container">
+          <!-- Songs will be populated here -->
+        </div>
+        <div class="button-group">
+          <button type="button" id="close-playlist-view" class="button">Close</button>
+        </div>
+      </div>
+    </div>
+    
+  
+    <div id="available-songs-container" class="items-container">
+      
+      <!-- Available songs will be loaded here -->
+    </div>
+
+    <!-- Audio player element -->
+    <div id="audio-player-container" class="hidden">
+      <img id="song-picture-audio-player" src="" alt="Currently Playing" />
+      <audio id="audio-player" controls>
+        <source id="audio-source" src="" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+      <button id="close-audio-player-button" class="button">Close</button>
+    </div>
+  </body>
+</html>

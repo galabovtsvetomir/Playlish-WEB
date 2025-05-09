@@ -1,0 +1,556 @@
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/playlish_background.jpeg"); /* Path to your background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the dropdown select elements */
+select.dropdown {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 8px; /* Further reduced padding */
+  font-size: 12px; /* Reduced font size */
+  cursor: pointer;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  margin-right: 5px; /* Reduced margin */
+  text-align-last: center;
+  min-width: 60px; /* Reduced minimum width */
+}
+
+select.dropdown::-ms-expand {
+  display: none;
+}
+
+select.dropdown::after {
+  content: "▼";
+  font-size: 10px;
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+select.dropdown:focus {
+  outline: none;
+}
+#top-left-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#search-bar-container {
+  margin-left: 40px; /* Increase spacing between logo and search bar */
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  width: 400px; /* Set the width of the search bar */
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Adjust padding for a larger button */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
+}
+
+/* Hover effect */
+.search-button:hover {
+  background-color: #0056b3; /* Darker shade of blue */
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif; /* Apply the Roboto font */
+  color: #bcbcbc;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.15); /* Increase size by 15% */
+  color: #5d6165; /* Change color on hover */
+}
+
+#logout-button:hover {
+  transform: scale(1.08);
+  background-color: #750202; /* Darken button color on hover */
+}
+
+.button:hover {
+  transform: scale(1.08);
+  background-color: #0056b3; /* Darken button color on hover */
+}
+
+.search-button:hover {
+  transform: scale(1.08);
+  background-color: #0056b3; /* Darken button color on hover */
+}
+
+#top-right-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Semi-transparent white for glass effect */
+  backdrop-filter: blur(10px); /* Apply blur effect to simulate glass */
+  border-radius: 8px;
+  padding: 10px;
+  backdrop-filter: blur(10px); /* Apply blur effect to simulate glass */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#logout-button {
+  position: absolute;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 16px 32px; /* Increase padding for a bigger button */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+.hidden {
+  display: none !important;
+}
+
+#add-song-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 2px solid #007bff; /* Blue border color */
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* General container style to enable scrolling */
+.items-container {
+  top: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  width: 90%;
+  max-height: 50vh; /* Adjust the height as needed */
+
+  justify-content: center; /* Center the items */
+}
+
+.song-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px; /* Fixed width */ /* 25% width for 4 items per row, minus gap */
+  max-width: 300px; /* Optional: Set a max-width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-image {
+  width: 100%;
+  height: auto;
+}
+
+.song-info {
+  padding: 10px;
+  text-align: center; /* Center text */
+  overflow: hidden; /* Prevent overflow */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.song-title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.song-artist,
+.song-genre,
+.song-date {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.song h2 {
+  margin-top: 10px; /* Space between image and song name */
+}
+
+/* Style for the play button to match other buttons */
+.play-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.play-button:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+  transform: scale(1.08);
+}
+
+/* Center heading within container */
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif; /* Apply the Roboto font */
+  color: #e8e8e8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-align: center; /* Center text */
+  width: 100%; /* Ensure it takes up the full width of the container */
+}
+
+.heading:hover {
+  transform: scale(1.05); /* Increase size by 15% */
+  color: #5d6165; /* Change color on hover */
+}
+
+/* Audio player container */
+#audio-player-container {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  height: 50px; /* Fixed height */
+}
+
+#audio-player-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#audio-player-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.08);
+}
+
+/* Style for the image inside the audio player container */
+#audio-player-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Ensure the playlists container is positioned relative */
+#playlists-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the buttons container is aligned to the top-left */
+#buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%; /* Ensure it spans the full width of the container */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for the Add Playlist button */
+#add-playlist-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px; /* Space between button and playlist items */
+}
+
+/* Ensure the playlists container inner is styled correctly */
+#playlists-container-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; /* Ensure items start from the left */
+}
+
+/* Playlist card styling */
+.playlist-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playlist-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.playlist-length,
+.playlist-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.view-playlist-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-playlist-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.08);
+}
+
+/* Add Playlist Form Container */
+#add-playlist-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #007bff; /* Blue border color */
+  position: fixed; /* Change to fixed for better positioning */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  flex-direction: column; /* Ensure it is displayed as a column */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.add-to-playlist-button {
+  background-color: #228b22; /* Dark green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.add-to-playlist-button:hover {
+  background-color: #113f11;
+  transform: scale(1.08);
+}
+
+/* Modal for Adding Songs to Playlists and other modals */
+.modal {
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#add-to-playlist-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #007bff; /* Blue border color */
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#add-to-playlist-form h2 {
+  margin-top: 0;
+}
+
+#add-to-playlist-form .playlist-checkbox {
+  margin-bottom: 10px;
+}
+
+#add-to-playlist-form .button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*cancel button for adding song to playlist/playlists */
+#add-to-playlist-cancel:hover {
+  background-color: #6d0404;
+  transform: scale(1.08);
+}
+
+/*cancel button for adding playlist to the system */
+#cancel-playlist-button:hover {
+  background-color: #6d0404;
+  transform: scale(1.08);
+}
+
+/*cancel button for adding song to the system */
+#cancel-button:hover {
+  background-color: #6d0404;
+  transform: scale(1.08);
+}
+
+.modal-content {
+  background-color: #dadbdd;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #007bff; /* Blue border color */
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.song-playlist-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #00000000;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #fbfbfcf7;
+}
+
+.song-playlist-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.song-playlist-info {
+  text-align: left;
+}
+
+.song-playlist-info h3 {
+  margin: 0;
+}
+
+.song-playlist-info p {
+  margin: 5px 0;
+}
