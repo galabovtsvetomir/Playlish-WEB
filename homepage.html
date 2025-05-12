@@ -181,20 +181,42 @@
       </div>
     </div>
     
+    <div style="display: flex; align-items: flex-start;">
+      <!-- Лявата част: съдържание и фокусирана песен -->
+      <div style="flex: 1;">
+        <div id="available-songs-container" class="items-container">
+          <!-- Available songs will be loaded here -->
+        </div>
+    
+        <div id="audio-player-container" class="hidden">
+          <img id="song-picture-audio-player" src="" alt="Currently Playing" />
+          <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <button id="close-audio-player-button" class="button">Close</button>
+        </div>
+    
+        <div id="focused-song-container" class="hidden">
+          <!-- JS ще пълни това с избраната песен -->
+        </div>
+      </div>
+      <div style="width: 100px;"></div>
+      <!-- Дясна колона със случайни песни -->
+      <div id="sidebar-random-songs" class="random-songs-sidebar hidden">
+        
+      </div>
+       
+    </div>
+    
+    <!-- statistics container where we will fill the different statistics-->
+    <div id="statistics-container" class="hidden">
+      <h2>Most Viewed Songs</h2>
+      <div id="most-viewed-list"></div>
+    </div>
+    
   
-    <div id="available-songs-container" class="items-container">
-      
-      <!-- Available songs will be loaded here -->
-    </div>
-
-    <!-- Audio player element -->
-    <div id="audio-player-container" class="hidden">
-      <img id="song-picture-audio-player" src="" alt="Currently Playing" />
-      <audio id="audio-player" controls>
-        <source id="audio-source" src="" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-      <button id="close-audio-player-button" class="button">Close</button>
-    </div>
+    
   </body>
 </html>
+
