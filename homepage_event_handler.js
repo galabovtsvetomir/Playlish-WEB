@@ -130,7 +130,13 @@ function createRandomSongElement(song) {
 }
 
 // Действие при кликване на песен от дясната лента
+// Глобално, само веднъж! Уникален ID за този клиент
+const clientId = Math.random().toString(36).substring(2);
+let currentWs = null;
+
 function handleSongClick(url, image, songId) {
+  console.log("▶ handleSongClick за songId:", songId);
+
   // Увеличаваме гледанията
   fetch("./song.php", {
     method: "POST",
@@ -138,7 +144,7 @@ function handleSongClick(url, image, songId) {
     body: JSON.stringify({ action: "increment_view", song_id: songId }),
   });
 
-  // Показваме само нужните контейнери
+  // Скриваме други секции, показваме избрания song
   document.getElementById("available-songs-container").classList.add("hidden");
   document.getElementById("playlists-container").classList.add("hidden");
   document.getElementById("sidebar-random-songs").classList.remove("hidden");
@@ -150,22 +156,104 @@ function handleSongClick(url, image, songId) {
     ? `<video width="720" height="360" controls autoplay><source src="${url}" type="video/mp4"></video>`
     : `<audio controls autoplay><source src="${url}" type="audio/mpeg"></audio>`;
 
+  // Основен HTML
   focusContainer.innerHTML = `
-    <div class="focused-player" style="text-align: center;">
-      <h2 style="color: #666; margin-bottom: 10px;">Now Playing</h2>
-      ${mediaElement}
-      <img src="${image}" width="200" style="margin-top: 10px;" />
-      <div style="margin-top: 10px;">
-        <button class="button" id="like-button" style="background-color: #28a745; color: white;">👍 Like</button>
-        <button class="button" id="dislike-button" style="background-color: #393D41; color: white;">👎 Dislike</button>
-      </div>
-      <br>
-      <button onclick="goBackToMainView()" class="button" style="margin-top: 10px;">Back</button>
+  <div class="focused-player" style="text-align: center; margin-top: 400px;">
+    <h2 style="color: #666; margin-bottom: 10px;">Now Playing</h2>
+    ${mediaElement}
+    <img src="${image}" width="200" style="margin-top: 10px;" />
+    <div style="margin-top: 10px;">
+      <button class="button" id="like-button" style="background-color: #28a745; color: white;"> Like</button>
+      <button class="button" id="dislike-button" style="background-color: #393D41; color: white;"> Dislike</button>
     </div>
-  `;
+    <br>
+    <button onclick="goBackToMainView()" class="button" style="margin-top: 10px;">Back</button>
+  </div>
+
+  <div id="comments-section" style="margin-top: 60px; background-color: rgba(255,255,255,0.95); padding: 20px; border-radius: 12px; max-width: 800px; margin-left: auto; margin-right: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h3 style="font-weight: bold; margin-bottom: 10px;"> Live Comments</h3>
+    <div id="comments-container" style="border: 1px solid #ccc; background-color: #f0f0f0; border-radius: 8px; padding: 10px; height: 180px; overflow-y: auto; font-size: 14px; color: #333;"></div>
+    <div style="display: flex; gap: 10px; margin-top: 12px;">
+      <input type="text" id="comment-input" placeholder="Type your comment..." style="flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #ccc; font-size: 14px;">
+      <button id="send-comment-button" style="padding: 10px 16px; background-color: #007bff; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">
+        Send
+      </button>
+    </div>
+  </div>
+`;
+
+  // Затваряме предишна WebSocket връзка, ако има
+  if (currentWs && currentWs.readyState !== WebSocket.CLOSED) {
+    currentWs.close();
+  }
+
+  let currentUsername = "User";
+
+  fetch("./get_username.php")
+    .then((res) => res.json())
+    .then((data) => {
+      if (data.username) {
+        currentUsername = data.username;
+      }
+    });
+
+  // Създаваме нова WebSocket връзка
+  currentWs = new WebSocket("ws://localhost:3000");
+
+  currentWs.onopen = () => {
+    currentWs.send(
+      JSON.stringify({
+        type: "subscribe",
+        songId: songId,
+        clientId: clientId, // можеш да го използваш и тук за бъдещи цели
+      })
+    );
+  };
+
+  // Получаване на коментари (само чужди)
+  currentWs.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    if (
+      data.type === "broadcast_comment" &&
+      data.songId === songId &&
+      data.clientId !== clientId
+    ) {
+      const commentDiv = document.createElement("div");
+      commentDiv.innerHTML = `<strong>${data.username}</strong> [${data.timestamp}]: ${data.message}`;
+      document.getElementById("comments-container").appendChild(commentDiv);
+    }
+  };
+
+  // Слушател за изпращане на коментар
+  const oldButton = document.getElementById("send-comment-button");
+  oldButton.replaceWith(oldButton.cloneNode(true));
+  const newButton = document.getElementById("send-comment-button");
+  const input = document.getElementById("comment-input");
+
+  newButton.addEventListener("click", () => {
+    const message = input.value.trim();
+    if (message !== "") {
+      const timestamp = new Date().toLocaleTimeString();
+
+      // Показваме веднага на клиента
+      const commentDiv = document.createElement("div");
+      commentDiv.innerHTML = `<strong>You</strong> [${timestamp}]: ${message}`;
+      document.getElementById("comments-container").appendChild(commentDiv);
+
+      currentWs.send(
+        JSON.stringify({
+          type: "new_comment",
+          songId: songId,
+          username: currentUsername,
+          message: message,
+        })
+      );
+
+      input.value = "";
+    }
+  });
 }
 
-///TUKK BESHE RANDOM
 document.addEventListener("DOMContentLoaded", function () {
   fetchAvailableSongs();
 });
@@ -209,6 +297,7 @@ function fetchAvailableSongs(keyword = "", genre = "", sort = "newest") {
         })
       );
 
+      // create the container with the data for every song returned by the SERVER
       Promise.all(genrePromises).then((songsWithGenres) => {
         songsWithGenres.forEach((song) => {
           const songCard = document.createElement("div");
@@ -235,6 +324,8 @@ function fetchAvailableSongs(keyword = "", genre = "", sort = "newest") {
           container.appendChild(songCard);
         });
 
+        // GOING TROUGHT EVERY PLAY-BUTTON TO ATTACH EVENT TO IT ,
+        // TO THE PLAY-BUTTON THERE IS ATTACHED INFORMATION ABOUT THE SONG
         const playButtons = document.querySelectorAll(".play-button");
         playButtons.forEach((button) => {
           button.addEventListener("click", (event) => {
@@ -243,87 +334,9 @@ function fetchAvailableSongs(keyword = "", genre = "", sort = "newest") {
 
             const songId = event.target.getAttribute("data-song-id");
 
-            fetch("./song.php", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({
-                action: "increment_view",
-                song_id: songId,
-              }),
-            });
-
             loadRandomSongs(); // ← добави това тук
 
-            // Скриване на основния списък с песни и плейлисти
-            document
-              .getElementById("available-songs-container")
-              .classList.add("hidden");
-            document
-              .getElementById("playlists-container")
-              .classList.add("hidden");
-
-            // Показване на специалната секция за избраната песен
-            const focusContainer = document.getElementById(
-              "focused-song-container"
-            );
-            focusContainer.classList.remove("hidden");
-
-            //showing the side bar with random songs
-            document
-              .getElementById("sidebar-random-songs")
-              .classList.remove("hidden");
-
-            // Създаване на съдържанието
-            let mediaElement = "";
-
-            if (url.endsWith(".mp4")) {
-              mediaElement = `
-                <video width="720" height="360" controls autoplay>
-                  <source src="${url}" type="video/mp4">
-                  Вашият браузър не поддържа видео.
-                </video>
-              `;
-            } else {
-              mediaElement = `
-                <audio controls autoplay>
-                  <source src="${url}" type="audio/mpeg">
-                  Вашият браузър не поддържа аудио.
-                </audio>
-              `;
-            }
-            //create the object to apear in the frontend
-            focusContainer.innerHTML = `
-  <style>
-    #like-button:hover {
-      color: #90ee90; /* светло зелено */
-    }
-
-    #dislike-button:hover {
-      color: #ff6666; /* светло червено */
-    }
-  </style>
-
-      <div class="focused-player">
-        <div style="text-align: center;">
-      <h2 style="color: #666; margin-bottom: 10px;">Now Playing</h2>
-      ${mediaElement}
-      <img src="${image}" width="200" style="margin-top: 10px;" />
-    </div>
-
-    <div style="margin-top: 10px;">
-      <button class="button" id="like-button" style="background-color: #28a745; color: white; font-size: 14px; padding: 6px 12px; margin-right: 5px;">
-         👍 Like
-      </button>
-      <button class="button" id="dislike-button" style="background-color: rgb(57, 61, 65); color: white; font-size: 14px; padding: 6px 12px;">
-         👎 Dislike
-      </button>
-    </div>
-    <br>
-    <button onclick="goBackToMainView()" class="button" style="margin-top: 10px;">Back</button>
-  </div>
-`;
+            handleSongClick(url, image, songId);
           });
         });
 
