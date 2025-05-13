@@ -13995,3 +13995,2417 @@ s/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
     [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
 )
 
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:26:46 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:26:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 17
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 17
+✅ POST action: increment_view, ID: 17
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 17
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:26:55 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:27:00 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+✅ SQL UPDATE executed for ID: 18
+id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+👉 songId type: string
+2025-05-13 09:27:00 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:27:00 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+s/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:33:34 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+А - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+�ИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:33:34 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+s/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 17
+2025-05-13 09:41:59 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:41:59 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:42:00 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:42:00 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+✅ SQL UPDATE executed for ID: 17
+✅ POST action: increment_view, ID: 17
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 17
+2025-05-13 09:42:56 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+[songId] => 14
+)
+
+�ИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:42:56 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:42:56 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+2025-05-13 09:43:08 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:08 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+✅ PDO CONNECTED
+8 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:08 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:43:08 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 17
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:40 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+✅ SQL UPDATE executed for ID: 17
+2025-05-13 09:43:40 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+✅ POST action: increment_view, ID: 17
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:43:40 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+✅ SQL UPDATE executed for ID: 17
+✅ POST action: increment_view, ID: 17
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+✅ SQL UPDATE executed for ID: 17
+2025-05-13 09:43:46 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+✅ POST action: increment_view, ID: 17
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ PDO CONNECTED
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+usic/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:43:46 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 17
+2025-05-13 09:43:46 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:44:07 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ POST action: increment_view, ID: 18
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+✅ PDO CONNECTED
+2025-05-13 09:44:07 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:44:07 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:44:46 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+✅ POST action: increment_view, ID: 18
+> 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:44:46 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 09:44:46 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+�ИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 09:44:46 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:45:11 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:45:11 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+✅ POST action: increment_view, ID: 18
+2025-05-13 09:45:11 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+�ИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 09:51:59 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+А - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ POST action: increment_view, ID: 18
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 09:52:00 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+usic/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 09:52:00 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 6
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 6
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+✅ POST action: increment_view, ID: 18
+2025-05-13 10:20:36 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+2025-05-13 10:20:36 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 8
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [id] => 8
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:36 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+✅ POST action: increment_view, ID: 18
+✅ PDO CONNECTED
+👉 songId type: string
+👉 songId type: string
+✅ SQL UPDATE executed for ID: 18
+2025-05-13 10:20:58 | Array
+(
+    [id] => 13
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 13
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 15
+    [song_name] => Moy Merak
+    [artist_name] => Simona
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 15
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+    [image] => uploads/images/simona_moy_merak.jpg
+    [songId] => 14
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 14
+    [song_name] => Moy Merak
+    [artist_name] => Simona & Mirela
+    [image_path] => uploads/images/simona_moy_merak.jpg
+    [music_path] => uploads/music/SIMONA × MIRELA - MOY SI MERAK - СИМОНА × МИРЕЛА - МОЙ СИ МЕРАК [OFFICIAL VIDEO] 2024 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 17
+    [song_name] => Top Model
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 17
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+    [image] => uploads/images/pop_smoke_dior.jpg
+    [songId] => 7
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 7
+    [song_name] => Dior
+    [artist_name] => Pop Smoke
+    [image_path] => uploads/images/pop_smoke_dior.jpg
+    [music_path] => uploads/music/POP SMOKE - DIOR (OFFICIAL VIDEO) (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 6
+    [song_name] => Top Model 3
+    [artist_name] => Marso
+    [image_path] => uploads/images/marso.jpeg
+    [music_path] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/MARSO - TOP MODEL - ТОП МОДЕЛ [OFFICIAL 4K VIDEO] 2023 (320).mp3
+    [image] => uploads/images/marso.jpeg
+    [songId] => 6
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 18
+    [song_name] => Grad na Greha
+    [artist_name] => Marso
+    [image_path] => uploads/images/images.jfif
+    [music_path] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/_ГРАД НА ГРЕХА (OFFICIAL 4K VIDEO) 2025.mp4
+    [image] => uploads/images/images.jfif
+    [songId] => 18
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [id] => 16
+    [song_name] => Hot Nigga
+    [artist_name] => Bobby Shmurda
+    [image_path] => uploads/images/bobby_hotniggajpg.jpg
+    [music_path] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+)
+
+2025-05-13 10:20:58 | Array
+(
+    [music] => uploads/music/Bobby Shmurda - Hot N_gga (Official Music Video) (320).mp3
+    [image] => uploads/images/bobby_hotniggajpg.jpg
+    [songId] => 16
+)
+

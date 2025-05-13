@@ -432,6 +432,36 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAvailableSongs();
 });
 
+//tuk beshe
+// event listener for My profile button
+document.getElementById("profile-button").addEventListener("click", () => {
+  fetch("./get_user_info.php")
+    .then((res) => res.json())
+    .then((data) => {
+      document.getElementById(
+        "profile-username"
+      ).textContent = `Username: ${data.username}`;
+      document.getElementById("profile-picture").src =
+        data.profile_picture || "./default_profile.png";
+      // Скриваме всички основни секции
+      document
+        .getElementById("available-songs-container")
+        .classList.add("hidden");
+      document.getElementById("focused-song-container").classList.add("hidden");
+      document.getElementById("sidebar-random-songs").classList.add("hidden");
+      document.getElementById("playlists-container").classList.add("hidden");
+      document.getElementById("statistics-container").classList.add("hidden");
+
+      document.getElementById("profile-modal").classList.remove("hidden");
+    });
+});
+
+function closeProfileModal() {
+  document.getElementById("profile-modal").classList.add("hidden");
+  document
+    .getElementById("available-songs-container")
+    .classList.remove("hidden");
+}
 //initiate the searching for song by the criterias
 document.getElementById("search-button").addEventListener("click", function () {
   const keyword = document.getElementById("search-bar").value.trim();
@@ -617,6 +647,8 @@ document
     if (songsHeading) {
       songsHeading.classList.add("hidden");
     }
+
+    document.getElementById("view-playlist-modal").classList.add("hidden");
 
     // Fetch and display playlists
     fetchPlaylists();
@@ -832,3 +864,28 @@ document
       })
       .catch((error) => console.error("Error loading statistics:", error));
   });
+
+// event listener for the submit button on the profile picture
+document.getElementById("upload-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+
+  fetch("./upload_profile_picture.php", {
+    method: "POST",
+    body: formData,
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      if (data.success) {
+        document.getElementById("profile-picture").src = data.image_url;
+        alert("✅ profile picture was successfully updated!");
+      } else {
+        alert("❌ Error while uploading: " + data.error);
+      }
+    })
+    .catch((err) => {
+      console.error("Error with quering:", err);
+      alert("❌ Problem with the query.");
+    });
+});
