@@ -930,14 +930,46 @@ function loadMyConversations() {
 
       conversations.forEach((conv) => {
         const div = document.createElement("div");
-        div.style =
-          "display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;";
-
-        div.innerHTML = `
-          <span><strong>${conv.username} ${conv.conversation_id} </strong></span>
-          <button onclick="openChatPopup(${conv.conversation_id}, ${conv.user_id}, '${conv.username}')" style="background-color: #007bff; color: white; border: none; padding: 4px 10px; border-radius: 6px;">Chat</button>
+        div.style = `
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 10px;
+          padding: 6px;
+          border-radius: 8px;
+          background-color: #f8f9fa;
         `;
 
+        const img = document.createElement("img");
+        img.src = conv.profile_picture || "./default_profile.png";
+        img.alt = "Profile";
+        img.width = 40;
+        img.height = 40;
+        img.style = `
+          border-radius: 50%;
+          border: 2px solid #007bff;
+        `;
+
+        const name = document.createElement("span");
+        name.textContent = conv.username;
+        name.style = "flex: 1; font-weight: bold;";
+
+        const btn = document.createElement("button");
+        btn.textContent = "Chat";
+        btn.style = `
+          background-color: #007bff;
+          color: white;
+          border: none;
+          padding: 6px 10px;
+          border-radius: 6px;
+          cursor: pointer;
+        `;
+        btn.onclick = () =>
+          openChatPopup(conv.conversation_id, conv.user_id, conv.username);
+
+        div.appendChild(img);
+        div.appendChild(name);
+        div.appendChild(btn);
         container.appendChild(div);
       });
     });
@@ -1152,7 +1184,7 @@ function searchUsers() {
       users.forEach((user) => {
         const userDiv = document.createElement("div");
         userDiv.style =
-          "display: flex; align-items: center; margin-bottom: 10px; gap: 10px;";
+          "display: flex; align-items: center; margin-bottom: 10px; gap: 10px; padding: 6px; background-color: #f8f9fa; border-radius: 8px;";
 
         const img = document.createElement("img");
         img.src = user.profile_picture || "./default_profile.png";
@@ -1171,9 +1203,31 @@ function searchUsers() {
         btn.style =
           "background-color: #007bff; color: white; padding: 6px 10px; border: none; border-radius: 6px; cursor: pointer;";
 
-        // 👉 Закачаме popup за чат
+        // 👉 Само при натискане на бутона правим заявка
         btn.addEventListener("click", () => {
-          openChatPopup(1, user.id, user.username);
+          btn.disabled = true;
+          btn.textContent = "Loading...";
+
+          fetch("./get_or_create_conversation.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: `other_user_id=${user.id}`,
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              if (data.success) {
+                openChatPopup(data.conversation_id, user.id, user.username);
+              } else {
+                alert("Failed to start conversation");
+              }
+            })
+            .catch(() => {
+              alert("Network error");
+            })
+            .finally(() => {
+              btn.disabled = false;
+              btn.textContent = "Chat";
+            });
         });
 
         userDiv.appendChild(img);
