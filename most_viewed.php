@@ -1,11 +1,13 @@
 <?php
 header("Content-Type: application/json");
+
 $conn = new mysqli("localhost", "root", "", "playlish");
 if ($conn->connect_error) {
     die(json_encode(["error" => "Connection failed"]));
 }
 
-$sql = "SELECT song_name, views FROM songs ORDER BY views DESC LIMIT 10";
+// Вземаме и снимката
+$sql = "SELECT song_name, views, image_path FROM songs ORDER BY views DESC LIMIT 10";
 $result = $conn->query($sql);
 
 $data = [];

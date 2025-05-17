@@ -69,8 +69,8 @@
         <button id="profile-button" class="button">My Profile</button>
         <button id="add-song-button" class="button">Add Song</button>
         <button id="my-playlists-button" class="button">My Playlists</button>
-        <button id="available-songs-button" class="button">
-          Available Songs
+        <button id="messages-button" class="button">
+          My messages
         </button>
         <button id="statistics-button" class="button">Statistics</button>
       </div>
@@ -210,12 +210,22 @@
        
     </div>
     
-    <!-- statistics container where we will fill the different statistics-->
-    <div id="statistics-container" class="hidden">
-      <h2>Most Viewed Songs</h2>
-      <div id="most-viewed-list"></div>
-    </div>
-    
+
+   <!-- statistics container -->
+<div id="statistics-container" class="hidden" style="padding: 20px;">
+  <h2 style="text-align: center;">Most Viewed Songs</h2>
+
+  <div id="most-viewed-list" style="
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+  ">
+    <!-- Song cards ще се инжектират тук -->
+  </div>
+</div>
 
     <!-- Profile Modal -->
     <div id="profile-modal" class="hidden" style="
@@ -278,9 +288,71 @@
       Close
     </button>
   </div>
-  
 
-  <br /><br />
+  <!-- Messages Modal -->
+<div id="messages-container" class="hidden" style="
+position: relative;
+max-width: 800px;
+margin: 80px auto;
+margin-top: 300px;
+max-height: 800px;  
+padding: 20px;
+background: white;
+border-radius: 12px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+font-family: 'Segoe UI', sans-serif;
+">
+<h2 style="text-align: center; color: #333;">My Messages</h2>
+
+<!-- Search Users -->
+<div style="margin-bottom: 20px; display: flex; gap: 10px;">
+<input
+  type="text"
+  id="search-users"
+  placeholder="Search users..."
+  style="flex: 1; padding: 10px; border-radius: 6px; border: 1px solid #ccc;"
+/>
+<button
+  onclick="searchUsers()"
+  style="padding: 10px 16px; background-color: #007bff; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;"
+>
+  Search
+</button>
+</div>
+
+<!-- User chat list -->
+<div id="chat-users" style="
+max-height: 130px;     /* ~2 елемента по 60px + марджини */
+overflow-y: auto;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 6px;
+padding: 10px;
+"> 
+ <!-- Резултати от търсене ще се появят тук -->
+</div>
+
+<!-- My Conversations Area -->
+<div id="my-conversations-list" style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; border-radius: 6px; padding: 10px;">
+  <!-- тук ще се зареждат активните разговори -->
+</div>
+<div style="margin-top: 20px; text-align: center;">
+  <button onclick="closeMessagesModal()" style="
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  ">
+    Close
+  </button>
+
+</div>
+
+</div>
+</div>
+
 </div>
 
   </body>

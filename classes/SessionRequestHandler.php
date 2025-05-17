@@ -17,7 +17,7 @@ class SessionRequestHandler
 
         if ($user && password_verify($data['password'], $user['password']))
         {
-            Sessions::setLoggedState($user['username']);
+            Sessions::setLoggedState($user['username'], $user['id']);
             return User::fromArray($user);
         }
 

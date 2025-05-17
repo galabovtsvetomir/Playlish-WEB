@@ -850,16 +850,41 @@ document
     // Покажи статистиката
     document.getElementById("statistics-container").classList.remove("hidden");
 
-    // Зареди статистика от сървъра
     fetch("./most_viewed.php")
       .then((response) => response.json())
       .then((songs) => {
         const list = document.getElementById("most-viewed-list");
         list.innerHTML = "";
+
         songs.forEach((song) => {
-          const div = document.createElement("div");
-          div.textContent = `${song.song_name}   has   ${song.views} views`;
-          list.appendChild(div);
+          const card = document.createElement("div");
+          card.style = `
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      `;
+
+          const img = document.createElement("img");
+          img.src = song.image_path || "./default_song_image.png";
+          img.alt = song.song_name;
+          img.style =
+            "width: 80px; height: 80px; border-radius: 8px; object-fit: cover;";
+
+          const info = document.createElement("div");
+          info.innerHTML = `
+        <h3 style="margin: 0; font-size: 18px;">${song.song_name}</h3>
+        <p style="margin: 4px 0 0; color: #555;">Views: ${song.views}</p>
+      `;
+
+          card.appendChild(img);
+          card.appendChild(info);
+          list.appendChild(card);
         });
       })
       .catch((error) => console.error("Error loading statistics:", error));
@@ -889,3 +914,285 @@ document.getElementById("upload-form").addEventListener("submit", function (e) {
       alert("❌ Problem with the query.");
     });
 });
+
+//function for loading previous conversations
+function loadMyConversations() {
+  fetch("./get_conversations.php")
+    .then((res) => res.json())
+    .then((conversations) => {
+      const container = document.getElementById("my-conversations-list");
+      container.innerHTML = "";
+
+      if (conversations.length === 0) {
+        container.innerHTML = "<p style='color: #777;'>No active chats.</p>";
+        return;
+      }
+
+      conversations.forEach((conv) => {
+        const div = document.createElement("div");
+        div.style =
+          "display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;";
+
+        div.innerHTML = `
+          <span><strong>${conv.username} ${conv.conversation_id} </strong></span>
+          <button onclick="openChatPopup(${conv.conversation_id}, ${conv.user_id}, '${conv.username}')" style="background-color: #007bff; color: white; border: none; padding: 4px 10px; border-radius: 6px;">Chat</button>
+        `;
+
+        container.appendChild(div);
+      });
+    });
+}
+
+// Показване на модuла за съобщения
+document.getElementById("messages-button").addEventListener("click", () => {
+  // Скриване на всички останали секции
+  document.getElementById("available-songs-container").classList.add("hidden");
+  document.getElementById("focused-song-container").classList.add("hidden");
+  document.getElementById("sidebar-random-songs").classList.add("hidden");
+  document.getElementById("playlists-container").classList.add("hidden");
+  document.getElementById("statistics-container").classList.add("hidden");
+  document.getElementById("profile-modal").classList.add("hidden");
+
+  // Показване на модала за съобщения
+  document.getElementById("messages-container").classList.remove("hidden");
+
+  loadMyConversations(); // 👈 това добави
+
+  // (по избор) Изчистване на входните полета и съобщенията
+  document.getElementById("message-input").value = "";
+  document.getElementById("chat-box").innerHTML = "";
+  document.getElementById("chat-users").innerHTML = "";
+});
+
+// Скриване на модала
+function closeMessagesModal() {
+  document.getElementById("messages-container").classList.add("hidden");
+  document
+    .getElementById("available-songs-container")
+    .classList.remove("hidden");
+}
+
+// function to send message to the user
+function sendMessageToUser(receiverId, popup) {
+  const input = popup.querySelector("input[type='text']");
+  const message = input.value.trim();
+  if (!message) return;
+
+  fetch("./send_message.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: `receiver_id=${encodeURIComponent(
+      receiverId
+    )}&message=${encodeURIComponent(message)}`,
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      if (data.success) {
+        const chatBox = popup.querySelector(".popup-messages");
+
+        const msgDiv = document.createElement("div");
+        msgDiv.style =
+          "text-align: right; margin-bottom: 6px; padding-right: 8px;";
+
+        msgDiv.innerHTML = `
+          <span style="
+            background-color: #cce5ff;
+            padding: 6px 10px;
+            border-radius: 8px;
+            display: inline-block;
+            max-width: 75%;
+            word-wrap: break-word;
+          ">
+            ${message}
+          </span>
+        `;
+
+        chatBox.appendChild(msgDiv);
+
+        input.value = "";
+        chatBox.scrollTop = chatBox.scrollHeight;
+      } else {
+        alert("Failed to send message");
+      }
+    });
+}
+
+let currentChatReceiverId = null;
+
+function openChatPopup(conversationId, userId, username) {
+  //if (document.getElementById(`chat-popup-${userId}`)) return;
+
+  currentChatReceiverId = userId;
+
+  const popup = document.createElement("div");
+  popup.id = `chat-popup-${userId}`;
+  popup.classList.add("chat-popup");
+  popup.style = `
+    position: fixed;
+    bottom: 20px;
+    right: ${30 + document.querySelectorAll(".chat-popup").length * 320}px;
+    width: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+  `;
+
+  popup.innerHTML = `
+    <div class="popup-header" style="
+      background-color: #007bff;
+      color: white;
+      padding: 8px 12px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      cursor: move;
+    ">
+      Chat with ${username}
+      <span style="float: right; cursor: pointer;" onclick="document.getElementById('chat-popup-${userId}').remove()">close</span>
+    </div>
+
+    <div class="popup-messages" style="padding: 10px; height: 200px; overflow-y: auto; background: #f9f9f9;"></div>
+
+    <div class="popup-input" style="display: flex; gap: 6px; padding: 8px;">
+      <input type="text" placeholder="Message..." style="flex: 1; padding: 6px; border-radius: 6px; border: 1px solid #ccc;" />
+      <button id="send-message-button-${userId}" style="width: 100%; background-color: #007bff; color: white; border: none; border-radius: 4px; padding: 8px;">Send</button>
+    </div>
+  `;
+
+  document.body.appendChild(popup);
+
+  // 🎯 ЗАРЕЖДАНЕ НА СЪОБЩЕНИЯТА
+  fetch(`./get_messages.php?conversation_id=${conversationId}`)
+    .then((res) => res.json())
+    .then((messages) => {
+      const chatBox = popup.querySelector(".popup-messages");
+      chatBox.innerHTML = "";
+
+      messages.forEach((msg) => {
+        const msgDiv = document.createElement("div");
+
+        msgDiv.style = `text-align: ${
+          msg.is_mine ? "right" : "left"
+        }; margin-bottom: 6px;`;
+
+        msgDiv.innerHTML = `
+        <span style="
+          background-color: ${msg.is_mine ? "#cce5ff" : "#e8e8e8"};
+          padding: 6px 10px;
+          border-radius: 8px;
+          display: inline-block;
+          max-width: 75%;
+          word-wrap: break-word;
+        ">
+          ${msg.message}
+        </span>
+      `;
+
+        chatBox.appendChild(msgDiv);
+      });
+
+      chatBox.scrollTop = chatBox.scrollHeight;
+    });
+
+  document
+    .getElementById(`send-message-button-${userId}`)
+    .addEventListener("click", () => {
+      sendMessageToUser(userId, popup);
+    });
+
+  makeDraggable(popup);
+}
+
+function makeDraggable(el) {
+  const header = el.querySelector(".popup-header");
+  let isDragging = false,
+    offsetX = 0,
+    offsetY = 0;
+
+  header.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    offsetX = e.clientX - el.getBoundingClientRect().left;
+    offsetY = e.clientY - el.getBoundingClientRect().top;
+    document.body.style.userSelect = "none";
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    el.style.left = e.clientX - offsetX + "px";
+    el.style.top = e.clientY - offsetY + "px";
+    el.style.right = "auto"; // забрави за fixed right
+    el.style.bottom = "auto";
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+    document.body.style.userSelect = "auto";
+  });
+}
+
+// function to populated the searched users
+function searchUsers() {
+  const query = document.getElementById("search-users").value.trim();
+
+  if (!query) return;
+
+  fetch(`./search_users.php?q=${encodeURIComponent(query)}`)
+    .then((res) => res.json())
+    .then((users) => {
+      const container = document.getElementById("chat-users");
+      container.innerHTML = "";
+
+      if (users.length === 0) {
+        container.innerHTML = "<p>No users found.</p>";
+        return;
+      }
+
+      users.forEach((user) => {
+        const userDiv = document.createElement("div");
+        userDiv.style =
+          "display: flex; align-items: center; margin-bottom: 10px; gap: 10px;";
+
+        const img = document.createElement("img");
+        img.src = user.profile_picture || "./default_profile.png";
+        img.alt = "Profile";
+        img.width = 40;
+        img.height = 40;
+        img.style = "border-radius: 50%; border: 2px solid #007bff;";
+
+        const name = document.createElement("span");
+        name.textContent = user.username;
+        name.style = "flex: 1; font-weight: bold;";
+
+        const btn = document.createElement("button");
+        btn.textContent = "Chat";
+        btn.classList.add("button");
+        btn.style =
+          "background-color: #007bff; color: white; padding: 6px 10px; border: none; border-radius: 6px; cursor: pointer;";
+
+        // 👉 Закачаме popup за чат
+        btn.addEventListener("click", () => {
+          openChatPopup(1, user.id, user.username);
+        });
+
+        userDiv.appendChild(img);
+        userDiv.appendChild(name);
+        userDiv.appendChild(btn);
+
+        container.appendChild(userDiv);
+      });
+    });
+}
+
+document
+  .getElementById("search-users")
+  .addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      searchUsers();
+    }
+  });
+
+document
+  .querySelector("#messages-container button[onclick='searchUsers()']")
+  .addEventListener("click", searchUsers);
